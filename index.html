@@ -113,10 +113,25 @@
 			const logo = document.getElementById("logo");
 			const wear = document.getElementById("wear");
 
+			//DELETE LATER
+			season = "fall";
+
 		    switch(season){
 				case "spring":
 					html.style.backgroundColor = "#2B7129";
 					banner.textContent = "Spring Forward!";
+				break;
+				case "summer":
+					html.style.backgroundColor = "#EBA52B";
+					banner.textContent = "Summer Time!";
+				break;
+				case "fall":
+					html.style.backgroundColor = "#A81124";
+					banner.textContent = "Time for leaves to Fall!";
+				break;
+				case "winter":
+					html.style.backgroundColor = "#005393";
+					banner.textContent = "Win in Winter!";
 				break;
 			}
 
